@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Coffee Shop</string>
+    <!--Name of the order summary.It will be shown in the format of "Name:Amy" where Amy is user's
+    name.[CHAR LIMIT=NONE]-->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <!--header text for the list of toppings.[CHAR LIMIT=20]-->
+    <string name="toppings">TOPPINGS</string>
+    <!--text for the amount of product.[CHAR LIMIT=20]-->
+    <string name="quantity">QUANTITY</string>
+    <!--For Whipped Cream .-->
+    <string name="whipped_cream">Whipped Cream</string>
+    <!--For Chocolate .-->
+    <string name="chocolate">Chocolate</string>
+    <!--button view for the order.[CHAR LIMIT=15]-->
+    <string name="order">ORDER</string>
+    <!--hint-->
+    <string name="name">Name </string>
+
+    <!--submit order in java-->
+    <!--name in java submit order-->
+    <string name="java_name">Name: </string>
+    <!--add whipped cream-->
+    <string name="add_whipped_cream">Whipped Cream ?</string>
+    <!--add chocolate -->
+    <string name="add_chocolate">Chocolate ?</string>
+    <!--quantity -->
+    <string name="java_quantity">Quantity: </string>
+    <!--Total showed in submit order-->
+    <string name="total">Total $</string>
+    <!--For thank you-->
+    <string name="thank_you">Thank You !</string>
+    <!--Subject line for the order summary email. -->
+    <string name="order_summary_email_subject">Coffee order for  <xliff:g id="name" example="Amy"> </xliff:g></string>
+</resources>
